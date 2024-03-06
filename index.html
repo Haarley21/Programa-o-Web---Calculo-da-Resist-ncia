@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="Style.css">
+    <title>Aplicação cálculo de resistência</title>
+</head>
+<body>
+
+    <div class="faixas">
+        <div> Cor da Faixa 01 -
+            <select id="faixa01">
+                <option value="0" id="c0">Preto</option>
+                <option value="1" id="c01">Marrom</option>
+                <option value="2" id="c02">Vermelho</option>
+                <option value="3" id="c03"> Laranja </option>
+                <option value="4" id="c04"> Amarelo </option>
+                <option value="5" id="c05"> Verde </option>
+                <option value="6" id="c06"> Azul </option>
+                <option value="7" id="c07"> Violeta </option>
+                <option value="8" id="c08"> Cinza </option>
+                <option value="9" id="c09"> Branco </option>
+
+            </select>
+        </div>
+
+        <div> Cor da Faixa 02 -
+            <select id="faixa02">
+                <option value="0" id="c0">Preto</option>
+                <option value="1" id="c01">Marrom</option>
+                <option value="2" id="c02">Vermelho</option>
+                <option value="3" id="c03"> Laranja </option>
+                <option value="4" id="c04"> Amarelo </option>
+                <option value="5" id="c05"> Verde </option>
+                <option value="6" id="c06"> Azul </option>
+                <option value="7" id="c07"> Violeta </option>
+                <option value="8" id="c08"> Cinza </option>
+                <option value="9" id="c09"> Branco </option>
+            </select>
+        </div>
+
+        <div> Cor da Faixa 03 -
+            <select id="faixa03">
+                <option value="0" id="c0">Preto</option>
+                <option value="1" id="c01">Marrom</option>
+                <option value="2" id="c02">Vermelho</option>
+                <option value="3" id="c03"> Laranja </option>
+                <option value="4" id="c04"> Amarelo </option>
+                <option value="5" id="c05"> Verde </option>
+                <option value="6" id="c06"> Azul </option>
+                <option value="7" id="c07"> Violeta </option>
+                <option value="8" id="c08"> Cinza </option>
+                <option value="9" id="c09"> Branco </option>
+
+            </select>
+        </div>
+ 
+        <div> Concatenação: <input type="text" id="concatenação"></div>
+            
+    </div>
+        <div> Cor do Multiplicador-
+            <select id="mult">
+                <option value="1" id="c0">Preto</option>
+                <option value="10" id="c01">Marrom</option>
+                <option value="100" id="c02">Vermelho</option>
+                <option value="1000" id="c03"> Laranja </option>
+                <option value="10000" id="c04"> Amarelo </option>
+                <option value="100000" id="c05"> Verde </option>
+                <option value="1000000" id="c06"> Azul </option>
+                <option value="10000000" id="c07"> Violeta </option>
+                <option value="0.1" id="c10"> Dourado </option>
+                <option value="0.01" id="c11"> Prateado </option>
+            </select>
+        </div>
+
+        <div> Multiplicaçâo: <input type="text" id="resultado" ></div>
+
+
+        <div> Cor da Tolerância -
+            <select id="Tol">
+                <option value="0.01" id="c01">Marrom</option>
+                <option value="0.02" id="c02">Vermelho</option>
+                <option value="0.005" id="c05"> Verde </option>
+                <option value="0.0025" id="c06"> Azul </option>
+                <option value="0.001" id="c07"> Violeta </option>
+                <option value="0.005" id="c08"> Cinza </option>
+                <option value="0.05" id="c10"> Dourado </option>
+                <option value="0.10" id="c11"> Prateado </option>
+            </select>
+        </div>
+
+        <div> Tolerância: <input type="text" id="tolerância"> % </div>
+        <div> O intervalo de resistência varia entre: <input type="text" id="var01"> e <input type="text" id="var02"> </div>
+
+    <button type="button" onclick="Fazercalculo()"> Calcular </button> 
+    </form>
+    <script src="script.js"> </script>
+
+</body>
+</html>

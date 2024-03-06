@@ -1,0 +1,59 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+  
+}
+
+#c0{
+    background-color: black;
+    color: aliceblue;
+}
+#c01{
+    background-color: rgb(102, 56, 4);
+    color:rgb(255, 255, 255);
+}
+#c02{
+    background-color: red;
+    color: rgb(255, 255, 255);
+}
+#c03{
+    background-color: rgb(240, 118, 5);
+    color: white;
+
+}
+#c04{
+    background-color: rgb(255, 255, 0);
+
+}
+#c05{
+    background-color: green;
+    color: white;
+
+}
+#c06{
+    background-color: blue;
+    color: white
+
+}
+#c07{
+    background-color: blueviolet;
+    color:white;
+
+}
+#c08{
+    background-color: gray;
+
+}
+#c09{
+
+}
+#c10{
+    background-color: goldenrod;
+
+}
+#c11{
+    background-color: rgb(218, 219, 203);
+
+}
